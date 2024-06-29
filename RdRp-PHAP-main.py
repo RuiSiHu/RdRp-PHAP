@@ -42,7 +42,7 @@ def predict(seqs, sequence_names):
 
     y_pred_prob = model.predict_proba(scaled_features)
 
-    df_out = pd.DataFrame(np.zeros((y_pred_prob.shape[0], 3)), columns=["Sequence_name", "Prediction", "probability"])
+    df_out = pd.DataFrame(np.zeros((y_pred_prob.shape[0], 3)), columns=["Name", "Prediction", "Probability"])
     y_pred = model.predict(scaled_features)
     for i in range(y_pred.shape[0]):
         df_out.iloc[i, 0] = str(sequence_names[i])
