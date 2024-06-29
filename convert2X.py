@@ -4,7 +4,7 @@
 # @Author : Rui-Si Hu
 # @Email : grishu0707@gmail.com
 # @IDE : PyCharm
-# @file: convert2X.py
+# @File: convert2X.py
 
 import argparse
 
