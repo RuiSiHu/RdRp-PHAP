@@ -1,5 +1,12 @@
-from __future__ import print_function,division
+#!/usr/bin/env python
+# _*_coding:utf-8_*_
+# @Time : 2024.06.30
+# @Author : Rui-Si Hu
+# @Email : grishu0707@gmail.com
+# @IDE : PyCharm
+# @File: multitask.py
 
+from __future__ import print_function,division
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
