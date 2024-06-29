@@ -1,10 +1,9 @@
-from __future__ import print_function,division
 
+from __future__ import print_function,division
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
 from torch.nn.utils.rnn import PackedSequence
-
 
 class LMEmbed(nn.Module):
     def __init__(self, nin, nout, lm, padding_idx=-1, transform=nn.ReLU()
