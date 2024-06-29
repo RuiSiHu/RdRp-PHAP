@@ -38,7 +38,7 @@ def predict(seqs, sequence_names):
     final_feature = get_feature(seqs)
     scale = joblib.load('./Models/scaler.pkl')
     scaled_features = scale.transform(final_feature)
-    model = joblib.load('./Models/RandomForestClassifier_best_model.pkl')
+    model = joblib.load('./Models/KNeighborsClassifier_best_model.pkl')
 
     y_pred_prob = model.predict_proba(scaled_features)
 
