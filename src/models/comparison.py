@@ -11,7 +11,6 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 
-
 class L1(nn.Module):
     def forward(self, x, y):
         return -torch.sum(torch.abs(x.unsqueeze(1)-y), -1)
