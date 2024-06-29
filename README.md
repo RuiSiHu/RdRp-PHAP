@@ -34,7 +34,6 @@ A list of requirements as following:
     tape-proteins==0.5
     torch==1.3.0
 
-
 # 3.Running
 ***Note***: please download the '*BiLSTM_embed.model*' from [***here***](https://huggingface.co/huruisi/BiLSTM_embed/tree/main) or (https://huggingface.co/huruisi/BiLSTM_embed/tree/main) and place it in the root directory named "**Models**".
 
@@ -50,5 +49,9 @@ The default file of output is Prediction_results.csv.
 ***Note***: please ensure that the input FASTA file contains no non-amino acid characters. If there are any, please use *convert2X.py* to convert them using the command:
 
     python3 convert2X.py -i input.fasta -o output.fasta
+    
+# 3.Results
+The default output file is Prediction_results.csv, as shown in the figure below that it contains three columns. The first column is the sequence name, the second column is the predicted zoonotic infection potential, and the third column is the predicted likelihood.
+
 
 Please contact grishu0707(at)gmail.com.
