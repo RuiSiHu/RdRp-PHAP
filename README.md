@@ -12,7 +12,7 @@ For example:
 
     conda create -n env_name python=3.7
 
-Please note that the Python version in this environment must be 3.7. Then, use pip install -r requirements.txt to install the corresponding versions of the tools.
+Please note that the Python in this environment must be version 3.7. The corresponding version of various tools can be installed using pip command.
 
     pip install -r requirements.txt
 
