@@ -51,4 +51,4 @@ The default file of output is Prediction_results.csv.
 
     python3 convert2X.py -i input.fasta -o output.fasta
 
-Any questions can be emailed to grishu0707@gmail.com.
+Please contact grishu0707(at)gmail.com.
