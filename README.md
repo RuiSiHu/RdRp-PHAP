@@ -42,8 +42,7 @@ Change the working directory to RdRp-PHAP-main.py, then execute the following co
     python3 RdRp-PHAP-main.py -i RdRp_test.fasta -o Prediction_results.csv
 The default file of output is Prediction_results.csv.
 
-**Where**:
-
+**Where**:<br>
     -i: specifies the input file in FASTA format; 
     -o: specifies the output file name, defaulting to 'Prediction_results.csv'
 
