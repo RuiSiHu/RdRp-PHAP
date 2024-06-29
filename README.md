@@ -50,3 +50,5 @@ The default file of output is Prediction_results.csv.
 ***Note***: please ensure that the input FASTA file contains no non-amino acid characters. If there are any, please use *convert2X.py* to convert them using the command:
 
     python3 convert2X.py -i input.fasta -o output.fasta
+
+Any questions can be emailed to grishu0707@gmail.com.
