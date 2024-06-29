@@ -1,12 +1,12 @@
 # RdRp-PHAP
 RdRp-PHAP is a machine learning tool designed to identify the zoonotic potential of unclassified viruses based on the given viral RdRp protein sequences.
 
-# 1.Description
+# 1. Description
 The RdRp (RNA-dependent RNA polymerase) protein is a pivotal enzyme in viral replication, facilitating RNA synthesis. Its high conservation throughout viral evolution underscores its indispensable role in viral survival. RdRp's conservation is instrumental in discerning zoonotic viruses, capable of interspecies transmission, from non-zoonotic ones confined to specific hosts. Variations in RdRp sequences provide critical insights for distinguishing these viruses, offering valuable molecular perspectives for prevention and treatment strategies.<br>
 <p>
 The predictive tool RdRp-PHAP employs a Stacking-based ensemble of seven machine learning classifiers (KNN, GBC, GNB, SVM, RF, and LGBM), integrating hybrid features from deep representation learning (BERT and BiLSTM) and classic sequence features (DDE and DPC). RdRp-PHAP holds promise for advancing computational methodologies in virology. Based on analysis of sequence lengths across three datasets (training, testing, and blind), it is recommended for predicting protein sequences within the range of 40 to 4000 amino acid residues.
 
-# 2.Requirements
+# 2. Requirements
 Users can download RdRp-PHAP to the local machine and build the environment using conda. <br>
 For example:
 
@@ -34,7 +34,7 @@ A list of requirements as following:
     tape-proteins==0.5
     torch==1.3.0
 
-# 3.Running
+# 3. Running
 ***Note***: please download the '*BiLSTM_embed.model*' from [***here***](https://huggingface.co/huruisi/BiLSTM_embed/tree/main) or (https://huggingface.co/huruisi/BiLSTM_embed/tree/main) and place it in the directory named "**Models**".
 
 Change the working directory to RdRp-PHAP-main.py, then execute the following command:
@@ -50,7 +50,7 @@ The default file of output is Prediction_results.csv.
 
     python3 convert2X.py -i input.fasta -o output.fasta
     
-# 3.Results
+# 4. Results
 The default output file is Prediction_results.csv, as shown in the figure below that it contains three columns. The first column is the sequence name, the second column is the predicted zoonotic infection potential, and the third column is the predicted probability.
 
 
