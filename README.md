@@ -35,7 +35,7 @@ A list of requirements as following:
     torch==1.3.0
 
 # 3.Running
-***Note***: please download the '*BiLSTM_embed.model*' from [***here***](https://huggingface.co/huruisi/BiLSTM_embed/tree/main) or (https://huggingface.co/huruisi/BiLSTM_embed/tree/main) and place it in the root directory named "**Models**".
+***Note***: please download the '*BiLSTM_embed.model*' from [***here***](https://huggingface.co/huruisi/BiLSTM_embed/tree/main) or (https://huggingface.co/huruisi/BiLSTM_embed/tree/main) and place it in the directory named "**Models**".
 
 Change the working directory to RdRp-PHAP-main.py, then execute the following command:
 
