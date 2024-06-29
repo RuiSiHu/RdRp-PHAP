@@ -4,7 +4,7 @@
 # @Author : Rui-Si Hu
 # @Email : grishu0707@gmail.com
 # @IDE : PyCharm
-# @File: comparison.py
+# @File: embedding.py
 
 from __future__ import print_function,division
 import torch
