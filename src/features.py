@@ -1,10 +1,10 @@
 #!/usr/bin/env python
 # _*_coding:utf-8_*_
-# @Time : 2024.06.18
+# @Time : 2024.06.30
 # @Author : Rui-Si Hu
 # @Email : grishu0707@gmail.com
 # @IDE : PyCharm
-# @File : RdRp_PHAP.py
+# @File: features.py
 
 from src.BERT_embedding import BERT_Embed
 from src.BiLSTM_embedding import BiLSTM_Embed
