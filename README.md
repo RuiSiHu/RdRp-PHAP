@@ -51,7 +51,7 @@ The default file of output is Prediction_results.csv.
     python3 convert2X.py -i input.fasta -o output.fasta
     
 # 3.Results
-The default output file is Prediction_results.csv, as shown in the figure below that it contains three columns. The first column is the sequence name, the second column is the predicted zoonotic infection potential, and the third column is the predicted likelihood.
-
+The default output file is Prediction_results.csv, as shown in the figure below that it contains three columns. The first column is the sequence name, the second column is the predicted zoonotic infection potential, and the third column is the predicted probability.
+![image](https://github.com/RuiSiHu/RdRp-PHAP/blob/main/IMG.png)
 
 Please contact grishu0707(at)gmail.com.
