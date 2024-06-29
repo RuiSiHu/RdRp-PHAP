@@ -43,7 +43,7 @@ Change the working directory to RdRp-PHAP-main.py, then execute the following co
 The default file of output is Prediction_results.csv.
 
 **Where**:<br>
-    -i: specifies the input file in FASTA format; 
+    -i: specifies the input file in FASTA format; <br>
     -o: specifies the output file name, defaulting to 'Prediction_results.csv'
 
 ***Note***: please ensure that the input FASTA file contains non-amino acid characters. If there are any, please use *convert2X.py* to convert them using the command:
