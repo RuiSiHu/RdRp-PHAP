@@ -1,5 +1,5 @@
 # RdRp-PHAP
-RdRp-PHAP is a machine learning tool designed to identify the zoonotic potential of unclassified viruses based on the given viral RdRp protein sequences.
+RdRp (RNA-dependent RNA polymerase)-PHAP (Prediction of Human & Animal's Pathogens) is a machine learning tool designed to identify the zoonotic potential of unclassified viruses based on the given viral RdRp protein sequences.
 
 # 1. Description
 The RdRp (RNA-dependent RNA polymerase) protein is a pivotal enzyme in viral replication, facilitating RNA synthesis. Its high conservation throughout viral evolution underscores its indispensable role in viral survival. RdRp's conservation is instrumental in discerning zoonotic viruses, capable of interspecies transmission, from non-zoonotic ones confined to specific hosts. Variations in RdRp sequences provide critical insights for distinguishing these viruses, offering valuable molecular perspectives for prevention and treatment strategies.<br>
